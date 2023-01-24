@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.title-btns-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.landing-title{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(120, 120, 120);
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.landing-title:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.btns-container{
+    padding-right: 20px;
+}
+
+.btn-paintings{
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    background-color: transparent;
+    color: rgb(120, 120, 120);
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.btn-paintings:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.btn-bio{
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    background-color: transparent;
+    color: rgb(120, 120, 120);
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.btn-bio:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.btn-contact{
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    background-color: transparent;
+    color: rgb(120, 120, 120);
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.btn-contact:hover{
+    color: black;
+    transition: 0.5s;
+}

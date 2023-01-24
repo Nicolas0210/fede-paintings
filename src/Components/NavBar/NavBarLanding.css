@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.title-btns-container-landing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.landing-title-landing{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(196 196 196);
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.landing-title-landing:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.link-landing{
+    text-decoration: none;
+}
+
+.btns-container-landing{
+    padding-right: 20px;
+}
+
+.btn-paintings-landing{
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    background-color: transparent;
+    color: rgb(196 196 196);
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.btn-paintings-landing:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-bio-landing{
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    background-color: transparent;
+    color: rgb(196 196 196);
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.btn-bio-landing:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-contact-landing{
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    background-color: transparent;
+    color: rgb(196 196 196);
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.btn-contact-landing:hover{
+    color: white;
+    transition: 0.5s;
+}

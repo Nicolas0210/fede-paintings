@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.title{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.img-bio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fede-bio{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+.bio{
+    display: flex;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    width: 468px;
+    border-style: hidden;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 125px;
+    background-color: transparent;
+    color: black;
+    height: 440px;
+    font-weight: 400;
+}

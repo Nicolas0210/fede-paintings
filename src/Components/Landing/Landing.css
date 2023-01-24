@@ -1,0 +1,14 @@
+
+
+.all-container{
+    background-image: url("./4.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+}
+
+

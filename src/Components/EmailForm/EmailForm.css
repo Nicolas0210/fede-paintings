@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-right: 450px;
+}
+
+
+.name-label{
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.email-label{
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.message-label{
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.name-contact-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.email-contact-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.message-contact-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.form-input{
+    width: 520px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: transparent;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    color: black;
+}
+
+.message-input{
+    width: 520px;
+    height: 200px;
+    resize: none;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: transparent;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    color: black;
+}
+
+.send-btn{
+    width: 120px;
+    margin-left: 0px;
+    height: 50px;
+    background-color: transparent;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.send-btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}

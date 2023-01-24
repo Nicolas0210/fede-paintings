@@ -1,0 +1,29 @@
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    margin: 15px;
+    border-style: hidden;
+    border-radius: 0;
+    border-color: black;
+}
+
+.img-card{
+    width: 300px;
+    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.img-card:hover{
+    width: 450px;
+    height: 450px;
+    max-width: 500px;
+    max-height: 500px;
+    transition: 1.5s;
+    cursor: pointer;
+}
